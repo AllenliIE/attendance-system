@@ -6,8 +6,8 @@ const userController = {
     res.render('signup')
   },
   signUp: (req, res, next) => {  
-    const {email, password, passwordCheck} = req.body
-    console.log(req.body)
+    const {name, email, password, passwordCheck} = req.body
+    
     if (password !== passwordCheck) throw new Error('Passwords do not match!')
    
     User.findOne({ where: { email } })

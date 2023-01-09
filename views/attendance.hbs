@@ -1,3 +1,35 @@
-<div class="container row py-5">
-    <h1 class="col mt-5 text-center">Attendance Page</h1>
+<div class="container row">
+    <h1 class="col text-center">打卡區</h1>
+    <a href="" class="text-center">打卡</a>
+    <div class="col-12 p-0">
+  <div class="card m-3 text-center mx-auto" style="witdh:800px; height:600px;">
+    <table class="table m-3 table-striped table-hover">
+      <thead>
+        <tr>
+          <th scope="col">Id</th>
+          <th scope="col">Name</th>
+          <th scope="col">CheckIn-Time</th>
+          <th scope="col">CheckOut-Time</th>
+          <th scope="col">elapsed-Time</th>
+          <th scope="col">State</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#each dashboards}}
+        <tr class="align-middle">
+          <th scope="row">{{this.id}}</th>
+          <td>{{this.name}}</td>
+          <td>{{this.checkIn}}</td>
+          <td>{{this.checkOut}}</td>
+          <td>{{this.elapsedTime}}</td>
+          <td>{{this.status}}</td>
+          <td>
+            -
+          </td>
+        </tr>
+        {{/each}}
+      </tbody>
+    </table>
+  </div>
+</div>
 </div>

@@ -27,7 +27,7 @@ app.use((req, res, next) => {
 app.use(routes)
 
 app.listen(port, () => {
-  console.info(`Example app listening on port ${port}!`)
+  console.info(`Attendance Management System listening on port ${port}!`)
 })
 
 module.exports = app
