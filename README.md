@@ -5,10 +5,10 @@
 管理者經由後台提供的QR-Code顯示介面，來提供員工打卡，亦可查看員工出缺勤的狀況。
 
 # ERD Design
-![/Users/lizhengdong/alpha_camp/attendance-system/public/Screenshot 2023-01-09 at 6.32.49 PM.png]
+<img width="581" alt="Screenshot 2023-01-09 at 6 37 20 PM" src="https://user-images.githubusercontent.com/96935173/211289238-44249b8b-af3c-4c27-a14c-6b673e06e4d5.png">
 
 # Page Design
-![/Users/lizhengdong/alpha_camp/attendance-system/public/vue-component-design.png]
+<img width="654" alt="Screenshot 2023-01-09 at 6 37 43 PM" src="https://user-images.githubusercontent.com/96935173/211289307-fc4175fa-d300-43bd-a9c8-b8ddfa819c67.png">
 
 # 功能介紹
 **註冊功能**
