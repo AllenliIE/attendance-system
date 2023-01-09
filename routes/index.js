@@ -1,8 +1,12 @@
-const express = require('express')
-const router = express.Router()
+const express = require("express");
+const router = express.Router();
 
-router.get('/', (req, res) => {
-  res.send('Hello World!')
-})
+const attendController = require("../controllers/attendance-controller");
+const admin = require('./modules/admin')
 
-module.exports = router
+router.use('/admin', admin)
+router.get("/attendance", attendController.getAttendance);
+
+router.use("/", (req, res) => res.redirect("/attendance"));
+
+module.exports = router;
