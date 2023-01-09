@@ -6,7 +6,7 @@
 ## 初始化
 ### Initialize
 ```
-git remote add upstream https://github.com/ALPHACamp/forum-express-grading.git  # 建立上游連線
+git remote add upstream https://github.com/AllenliIE/attendance-system.git  # 建立上游連線
 npm install
 ```
 
